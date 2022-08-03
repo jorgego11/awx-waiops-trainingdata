@@ -67,6 +67,7 @@ echo "  "
 # if [[ $DO_COMM == "y" ||  $DO_COMM == "Y" ]]; then
 echo "   ------------------------------------------------------------------------------------------------------------------------------"
 echo "   📦 Uncompressing log anomaly training files"
+echo "   NOTE THAT WE HAVE REPLACED THE ZIP DATA FILE BELOW WITH QOTD TRAINING DATA FOR THE LAB, FOLDERS NAMES ARE UNCHANGED (JORGE) "
 echo "   ------------------------------------------------------------------------------------------------------------------------------"
 unzip -o ./robot-shop/$VERSION/logs/data-log-training.zip -d ./robot-shop/$VERSION/logs #>/dev/null 2>&1
 echo "  "
